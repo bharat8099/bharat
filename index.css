@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background: url(bharat.jpg) no-repeat center center fixed;
+background-size: cover;
+position: static ;
+}
+.container{
+/* border: 2px solid fuchsia; */
+   color: rgb(52, 76, 82);
+   position: absolute;
+   top: 30%;
+   left: 55%;
+
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: chocolate;
+    margin-bottom: 4px;
+    padding: 13px 0px;
+    background-color: #c0c1d78a;
+    border-radius: 40px;
+    transition: step-start;
+    transition-duration: 1s;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transform-origin: center top left left left;
+    transition-delay: 2s;
+    transition-duration: 3px;
+}
+.box{
+    width: 100px; 
+    /* border: 2px solid chocolate; */
+
+}
+.box input{
+    width: 150px;
+    border: none;
+    outline: none;
+    color: gainsboro;
+    padding: 3px;
+    margin: 7px;
+    border-radius: 20px;
+
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+
+
